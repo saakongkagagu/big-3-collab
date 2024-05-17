@@ -22,7 +22,7 @@ a{
     min-height: 100vh;
     background: linear-gradient(to right, hsla(40, 7%, 27%, 0.856) ,rgba(248, 244, 244, 0.315)), 
     url(../images/joswa.jpg);
-    background-size: ;
+    background-size:cover ;
 }   
 .navbar{
      background:linear-gradient(to bottom, hsla(182, 17%, 40%, 0.829), rgba(206, 167, 167, 0.884));
