@@ -1,4 +1,4 @@
-:root {
+[p]:root {
     --bg1: rgb(44, 89, 121);
     --bg2: #3ba39a;
     --body: rgb(230, 141, 141);
@@ -74,4 +74,11 @@ a {
 .btn-outline-brand:hover {
     background-color: var(--black);
     color: var(--black);
+}
+
+#about {
+    background-color: var(--bg1);
+    position: relative;
+    z-index: 1;
+
 }
