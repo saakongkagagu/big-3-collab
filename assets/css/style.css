@@ -39,3 +39,19 @@ a{
 .navbar-brand img{
     width: 50%;
 }
+#about {
+    background-color: var(--bg1);
+    position: relative;
+    z-index: 1;
+
+}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+#Services {
+    background-color: var(--white);
+}
