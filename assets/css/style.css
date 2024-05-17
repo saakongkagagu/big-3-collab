@@ -1,0 +1,41 @@
+:root{
+
+    --bg1: #616362;
+    --bg2: rgb(44, 42, 42);
+    --body: rgb(95, 86, 86);    
+    --brand: #cf8b0c;
+    --white: rgb(248, 245, 245);
+    --p: rgb(248, 246, 246); 
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--body);
+    line-height: 1.8;
+    background-color: var(--bg1);
+}
+a{
+    text-decoration: none;
+}
+
+#banner{
+    min-height: 100vh;
+    background: linear-gradient(to right, hsla(40, 7%, 27%, 0.856) ,rgba(248, 244, 244, 0.315)), 
+    url(../images/joswa.jpg);
+    background-size: ;
+}   
+.navbar{
+     background:linear-gradient(to bottom, hsla(182, 17%, 40%, 0.829), rgba(206, 167, 167, 0.884));
+}
+.navbar .nav-link {
+    color: #ffffff;
+}
+.navbar #navbarNav .nav-link.active {
+    color: var(--brand) !important;
+}
+.navbar .nav-link:hover{
+    color:var(--brand) !important;
+}
+.navbar-brand img{
+    width: 50%;
+}
