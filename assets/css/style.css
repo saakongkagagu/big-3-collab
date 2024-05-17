@@ -40,7 +40,7 @@ a{
     width: 50%;
 }
 #about {
-    background-color: var(--bg1);
+    background-color: var(aqua));
     position: relative;
     z-index: 1;
 
